@@ -1,0 +1,37 @@
+.reasons {
+    padding: 40px 20px;
+    background-color: #141414;
+    color: white;
+    text-align: left;
+}
+
+.reasons-title {
+    margin-bottom: 30px;
+}
+
+.reasons-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.reason-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.reason-icon {
+    margin-bottom: 15px;
+}
+
+.reason-title {
+    margin-bottom: 10px;
+}
+
+.reason-description {
+    color: #ccc;
+}

@@ -1,0 +1,28 @@
+.accordion-container {
+  margin: 5px auto;
+  max-width: 80%;
+  min-height: 60px;
+  padding: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion-summary {
+  background-color: #333333; 
+  color: #ffffff; 
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.accordion-details {
+  background-color: #2a2a2a; 
+  padding: 15px 20px;
+  line-height: 1.5;
+}
+
+.accordion-details p {
+  margin: 0;
+}
+
