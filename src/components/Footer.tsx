@@ -4,13 +4,13 @@ import "../styles/Footer.css";
 const Footer: React.FC = () => {
     return (
         <footer className="footer">
-            <div className="footer-content">
-                <img src="/src/assets/logo.png" alt="Netflix Logo" className="footer-logo" />
-                <p className='footer-text'>© 2023 Netflix Demo. All rights reserved.</p>
-                <div className='footer-links'>
-                    <a href="/terms" >Terms of Service</a>
-                    <a href="/privacy" >Privacy Policy</a>
-                    <a href="/contact" >Contact Us</a>
+            <div className="content">
+                <img src="/src/assets/images.png" alt="Netflix Logo" className="footer-logo" />
+                <p className='text'>© 2023 Netflix Demo. All rights reserved.</p>
+                <div className='links'>
+                    <a href="/terms" className='link' >Terms of Service</a>
+                    <a href="/privacy" className='link'>Privacy Policy</a>
+                    <a href="/contact" className='link'>Contact Us</a>
                 </div>
             </div>
         </footer>
